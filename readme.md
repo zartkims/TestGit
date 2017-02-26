@@ -1,3 +1,5 @@
+test stash
+insert
 test
 modify ! 
 modify second
