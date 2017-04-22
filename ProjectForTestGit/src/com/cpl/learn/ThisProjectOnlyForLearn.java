@@ -1,11 +1,15 @@
 package com.cpl.learn;
 
+import java.util.Arrays;
+
 import org.junit.Test;
 
 public class ThisProjectOnlyForLearn {
 	@Test
 	public void testSort() {
 		int [] a = getRandomNums(30);
+		Arrays.sort(a);
+		for (int i : a) System.out.print(i + "");
 	}
 	
 	public int[] getRandomNums(int len) {
