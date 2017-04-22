@@ -8,8 +8,9 @@ public class ThisProjectOnlyForLearn {
 	@Test
 	public void testSort() {
 		int [] a = getRandomNums(30);
-		Arrays.sort(a);
-		for (int i : a) System.out.print(i + "");
+//		Arrays.sort(a);
+		insertSort(a);
+		for (int i : a) System.out.print(i + " ");
 	}
 	
 	public int[] getRandomNums(int len) {
@@ -22,5 +23,20 @@ public class ThisProjectOnlyForLearn {
 			a[random] = t;
 		}
 		return a;
+	}
+	
+	public void insertSort(int [] a) {
+		if (a == null || a.length < 2) return;
+		for (int i  = 1; i < a.length; i++) {
+			if (a[i] < a[i - 1]) {
+				int stand = a[i];
+				int j = i - 1;
+				while (j >= 0 && a[j] > stand) {
+					a[j + 1] = a[j];
+					j--;
+				}
+				a[++j] = stand;
+			}
+		}
 	}
 }
