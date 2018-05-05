@@ -20,3 +20,5 @@ today try commit now i add amend
 now is in branch master
 
 in a local branch
+
+this is first time add the stage, but no push
