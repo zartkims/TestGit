@@ -22,3 +22,5 @@ now is in branch master
 in a local branch
 
 this is first time add the stage, but no push
+
+modify in master and commit
