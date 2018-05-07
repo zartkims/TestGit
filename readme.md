@@ -23,5 +23,9 @@ in a local branch
 
 this is first time add the stage, but no push
 
+
 modify in master and commit
 modify again in master
+
+modify something in local branch and push to it
+
