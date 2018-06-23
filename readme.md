@@ -31,3 +31,11 @@ modify something in local branch and push to it
 
 modify something in local branch again
 
+just find
+
+really fine? i modify in branch again
+
+modify in master
+
+>>>>>>> b8a27d33cc4248f5526a777fe68b3ad5c71e2d7b
+
