@@ -37,5 +37,6 @@ really fine? i modify in branch again
 
 modify in master
 
->>>>>>> b8a27d33cc4248f5526a777fe68b3ad5c71e2d7b
+i will build the relation between local branch to origin/mybranch
+
 
